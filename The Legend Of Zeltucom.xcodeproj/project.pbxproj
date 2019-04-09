@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86E4084E225D0947006850C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E4084D225D0947006850C9 /* AppDelegate.swift */; };
+		86E40850225D0947006850C9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 86E4084F225D0947006850C9 /* GameScene.sks */; };
+		86E40852225D0947006850C9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 86E40851225D0947006850C9 /* Actions.sks */; };
+		86E40854225D0947006850C9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E40853225D0947006850C9 /* GameScene.swift */; };
+		86E40856225D0947006850C9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E40855225D0947006850C9 /* GameViewController.swift */; };
+		86E40859225D0947006850C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E40857225D0947006850C9 /* Main.storyboard */; };
+		86E4085B225D0949006850C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E4085A225D0949006850C9 /* Assets.xcassets */; };
+		86E4085E225D0949006850C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E4085C225D0949006850C9 /* LaunchScreen.storyboard */; };
+		86E40868225D0995006850C9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E40867225D0995006850C9 /* Player.swift */; };
+		86E4086A225D0FF0006850C9 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E40869225D0FF0006850C9 /* Enemy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86E4084A225D0947006850C9 /* The Legend Of Zeltucom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Legend Of Zeltucom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E4084D225D0947006850C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86E4084F225D0947006850C9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		86E40851225D0947006850C9 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		86E40853225D0947006850C9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		86E40855225D0947006850C9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		86E40858225D0947006850C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86E4085A225D0949006850C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86E4085D225D0949006850C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86E4085F225D0949006850C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86E40867225D0995006850C9 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		86E40869225D0FF0006850C9 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86E40847225D0947006850C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86E40841225D0947006850C9 = {
+			isa = PBXGroup;
+			children = (
+				86E4084C225D0947006850C9 /* The Legend Of Zeltucom */,
+				86E4084B225D0947006850C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86E4084B225D0947006850C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86E4084A225D0947006850C9 /* The Legend Of Zeltucom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86E4084C225D0947006850C9 /* The Legend Of Zeltucom */ = {
+			isa = PBXGroup;
+			children = (
+				86E40866225D096C006850C9 /* Characters */,
+				86E40865225D0963006850C9 /* GameScenes */,
+				86E4084D225D0947006850C9 /* AppDelegate.swift */,
+				86E4084F225D0947006850C9 /* GameScene.sks */,
+				86E40851225D0947006850C9 /* Actions.sks */,
+				86E40855225D0947006850C9 /* GameViewController.swift */,
+				86E40857225D0947006850C9 /* Main.storyboard */,
+				86E4085A225D0949006850C9 /* Assets.xcassets */,
+				86E4085C225D0949006850C9 /* LaunchScreen.storyboard */,
+				86E4085F225D0949006850C9 /* Info.plist */,
+			);
+			path = "The Legend Of Zeltucom";
+			sourceTree = "<group>";
+		};
+		86E40865225D0963006850C9 /* GameScenes */ = {
+			isa = PBXGroup;
+			children = (
+				86E40853225D0947006850C9 /* GameScene.swift */,
+			);
+			path = GameScenes;
+			sourceTree = "<group>";
+		};
+		86E40866225D096C006850C9 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				86E40867225D0995006850C9 /* Player.swift */,
+				86E40869225D0FF0006850C9 /* Enemy.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86E40849225D0947006850C9 /* The Legend Of Zeltucom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86E40862225D0949006850C9 /* Build configuration list for PBXNativeTarget "The Legend Of Zeltucom" */;
+			buildPhases = (
+				86E40846225D0947006850C9 /* Sources */,
+				86E40847225D0947006850C9 /* Frameworks */,
+				86E40848225D0947006850C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Legend Of Zeltucom";
+			productName = "The Legend Of Zeltucom";
+			productReference = 86E4084A225D0947006850C9 /* The Legend Of Zeltucom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86E40842225D0947006850C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Daniel Tarrasso";
+				TargetAttributes = {
+					86E40849225D0947006850C9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 86E40845225D0947006850C9 /* Build configuration list for PBXProject "The Legend Of Zeltucom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86E40841225D0947006850C9;
+			productRefGroup = 86E4084B225D0947006850C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86E40849225D0947006850C9 /* The Legend Of Zeltucom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86E40848225D0947006850C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E40859225D0947006850C9 /* Main.storyboard in Resources */,
+				86E40850225D0947006850C9 /* GameScene.sks in Resources */,
+				86E4085B225D0949006850C9 /* Assets.xcassets in Resources */,
+				86E4085E225D0949006850C9 /* LaunchScreen.storyboard in Resources */,
+				86E40852225D0947006850C9 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86E40846225D0947006850C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E40868225D0995006850C9 /* Player.swift in Sources */,
+				86E4086A225D0FF0006850C9 /* Enemy.swift in Sources */,
+				86E40854225D0947006850C9 /* GameScene.swift in Sources */,
+				86E40856225D0947006850C9 /* GameViewController.swift in Sources */,
+				86E4084E225D0947006850C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86E40857225D0947006850C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86E40858225D0947006850C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86E4085C225D0949006850C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86E4085D225D0949006850C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86E40860225D0949006850C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86E40861225D0949006850C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86E40863225D0949006850C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Legend Of Zeltucom/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danielo.The-Legend-Of-Zeltucom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86E40864225D0949006850C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Legend Of Zeltucom/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danielo.The-Legend-Of-Zeltucom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86E40845225D0947006850C9 /* Build configuration list for PBXProject "The Legend Of Zeltucom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E40860225D0949006850C9 /* Debug */,
+				86E40861225D0949006850C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86E40862225D0949006850C9 /* Build configuration list for PBXNativeTarget "The Legend Of Zeltucom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E40863225D0949006850C9 /* Debug */,
+				86E40864225D0949006850C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86E40842225D0947006850C9 /* Project object */;
+}
