@@ -7,3 +7,18 @@
 //
 
 import Foundation
+import UIKit
+import SpriteKit
+
+class Enemy{
+    var type : String
+    var heart : Int
+    
+    init(type:String, heart:Int) {
+        self.type = type
+        self.heart = heart
+    }
+    
+    //public func getType
+    
+}

@@ -19,6 +19,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     //Background Node
     var map = SKNode()
+    let cam = SKCameraNode()
     
     //Moves Node
     var move = SKSpriteNode()
@@ -46,6 +47,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     override func didMove(to view: SKView) {
+        
+        self.physicsWorld.contactDelegate = self
+        self.anchorPoint = CGPoint(x:0, y: 0.30)
+        backgroundColor = SKColor(red: 81.0/255.0, green: 192.0/255.0, blue: 201.0/255.0, alpha: 1.0)
+        
+        //asignamos la default camara a la nuestra
+        self.camera = cam
         
         // Get label node from scene and store it for use later
         self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
@@ -115,6 +123,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     
     override func update(_ currentTime: TimeInterval) {
-        // Called before each frame is rendered
+        //la camara va siguiendo al jugador
+        cam.position = player.getSprite().position
     }
 }
