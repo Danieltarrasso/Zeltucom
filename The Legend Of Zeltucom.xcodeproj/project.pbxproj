@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F060CB3226D15A600595274 /* Map.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5F060CB2226D15A600595274 /* Map.sks */; };
 		86E4084E225D0947006850C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E4084D225D0947006850C9 /* AppDelegate.swift */; };
 		86E40850225D0947006850C9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 86E4084F225D0947006850C9 /* GameScene.sks */; };
 		86E40852225D0947006850C9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 86E40851225D0947006850C9 /* Actions.sks */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F060CB2226D15A600595274 /* Map.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Map.sks; sourceTree = "<group>"; };
 		86E4084A225D0947006850C9 /* The Legend Of Zeltucom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Legend Of Zeltucom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E4084D225D0947006850C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86E4084F225D0947006850C9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				86E40865225D0963006850C9 /* GameScenes */,
 				86E4084D225D0947006850C9 /* AppDelegate.swift */,
 				86E4084F225D0947006850C9 /* GameScene.sks */,
+				5F060CB2226D15A600595274 /* Map.sks */,
 				86E40851225D0947006850C9 /* Actions.sks */,
 				86E40855225D0947006850C9 /* GameViewController.swift */,
 				86E40857225D0947006850C9 /* Main.storyboard */,
@@ -153,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F060CB3226D15A600595274 /* Map.sks in Resources */,
 				86E40859225D0947006850C9 /* Main.storyboard in Resources */,
 				86E40850225D0947006850C9 /* GameScene.sks in Resources */,
 				86E4085B225D0949006850C9 /* Assets.xcassets in Resources */,
